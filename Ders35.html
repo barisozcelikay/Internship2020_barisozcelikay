@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+<script type="text/javascript">
+function uzerine_gelince()
+{
+	document.getElementById("mesaj").innerHTML = "Türkiyeye Başarılar..";
+	document.getElementById("mesaj").style.color ="#f00"
+}
+
+function uzerinden_cikinca()
+{
+	document.getElementById("mesaj").innerHTML = "Euro 2016";
+	document.getElementById("mesaj").style.color ="#000"
+}
+
+</script>
+</head>
+
+<body>
+<h1 id="mesaj" onMouseOver="uzerine_gelince()" onMouseOut="uzerinden_cikinca()">Euro 2016</h1>
+
+</body>
+</html>
